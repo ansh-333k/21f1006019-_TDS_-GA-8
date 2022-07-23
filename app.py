@@ -11,7 +11,7 @@ num_2 = st.number_input("2nd Number",step=1)
 num_3 = st.number_input("3rd Number",step=1)
 
 st.subheader('Entered Numbers are -')
-st.write(list(num_1, num_2, num_3))
+st.write([num_1, num_2, num_3])
 
 max = None
 
